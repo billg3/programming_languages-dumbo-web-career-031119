@@ -14,10 +14,9 @@ end
 end 
 
   
-  
-end
   new_hash
 end
+end 
 
 
  ##:ruby => {
