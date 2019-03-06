@@ -3,7 +3,7 @@ def reformat_languages(languages)
   languages.collect do |style, list| 
   lang.collect do |lang, type|
     new_hash[lang] = type
-    
+    new_hash[lang][]
   
   
   
