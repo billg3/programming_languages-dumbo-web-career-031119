@@ -20,6 +20,6 @@ end
 end
 
 
- :ruby => {
-    :type => "interpreted",
-    :style => [:oo]
+ ##:ruby => {
+  ##  :type => "interpreted",
+   ## :style => [:oo]
