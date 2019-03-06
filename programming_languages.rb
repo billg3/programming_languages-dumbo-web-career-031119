@@ -7,9 +7,9 @@ def reformat_languages(languages)
     list.each do |lang, type|
       # adding the type for each lang 
       new_hash[lang] = type
-      # making the style for each lang into an array
+      # making the style for each lang 
       new_hash[lang][:style] = []
-      # adding the style for each lang into said array
+      # adding the style for each lang 
      new_hash[lang][:style] << style
     end
   end
