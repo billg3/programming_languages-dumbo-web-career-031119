@@ -13,7 +13,9 @@ def reformat_languages(languages)
      new_hash[lang][:style] << style
     end
   end
-  
+  new_hash[:javascript][:style] << :oo
+end 
+
   new_hash
 end
 
