@@ -3,8 +3,8 @@ def reformat_languages(languages)
   # your code here
   new_hash = {}
 
-  languages.collect do |style, list|
-    list.collect do |lang, type|
+  languages.each do |style, list|
+    list.each do |lang, type|
       # adding the type for each lang 
       new_hash[lang] = type
       # making the style for each lang into an array
