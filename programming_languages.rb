@@ -10,7 +10,7 @@ def reformat_languages(languages)
       # making the style for each lang into an array
       new_hash[lang][:style] = []
       # adding the style for each lang into said array
-     ## new_hash[lang][:style] << style
+     new_hash[lang][:style] << style
     end
   end
   
